@@ -3,11 +3,9 @@
 #include <stdarg.h>
 
 /**
- * print_all - prints anything.
+ * print_all - function thatprints anything.
  * @format: a list of types of arguments passed to the function.
- *
- * Return: no return.
- */
+*/
 void print_all(const char * const format, ...)
 {
 	va_list list;
@@ -55,4 +53,3 @@ void print_all(const char * const format, ...)
 	printf("\n");
 	va_end(list);
 }
-
